@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/HP/Desktop/Toyin documents/UI_Automation_Task/page object model/Daydem">
+        <classes>
+            <class name="testLogin.LoginTests">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

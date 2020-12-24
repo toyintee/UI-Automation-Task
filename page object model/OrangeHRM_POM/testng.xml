@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/HP/Desktop/Toyin documents/UI_Automation_Task/page object model/OrangeHRM_POM">
+    <classes>
+        <class name="testLogin.LoginTests">
+            <methods>
+                <include name="testALoginPanel"/>
+                <include name="testACompanyLogo"/>
+                <include name="testAForgotPassword"/>
+                <include name="VerifyLogin"/>
+                <include name="testAPageTitle"/>
+            </methods>
+        </class>
+        <class name="testDashBoard.DashboardTests">
+            <methods>
+                <include name="testPendingLeaveRequest"/>
+                <include name="CheckingLogout"/>
+            </methods>
+        </class>
+        <class name="testSetup.setupTests">
+            <methods>
+                <include name="setUp"/>
+                <include name="closeBrowser"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
